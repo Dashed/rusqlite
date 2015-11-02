@@ -16,6 +16,7 @@ name = "rusqlite"
 load_extension = ["libsqlite3-sys/load_extension"]
 backup = []
 named_params = []
+functions = []
 
 [dependencies]
 time = "~0.1.0"
@@ -24,6 +25,7 @@ libc = "~0.1"
 
 [dev-dependencies]
 tempdir = "~0.3.4"
+regex = "~0.1.41"
 
 [dependencies.libsqlite3-sys]
 path = "libsqlite3-sys"
